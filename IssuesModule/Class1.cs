@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Issues
+namespace IssuesModule
 {
     public class Class1
     {

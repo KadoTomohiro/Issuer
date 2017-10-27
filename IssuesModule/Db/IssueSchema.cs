@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Issues.Db
+namespace IssuesModule.Db
 {
     public class IssueSchema
     {

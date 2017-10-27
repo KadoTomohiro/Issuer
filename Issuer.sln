@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.0.0
 MinimumVisualStudioVersion = 10.0.0.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Issues", "Issues\Issues.csproj", "{266E8078-3885-4671-BB2E-631331D6E04E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IssuesModule", "IssuesModule\IssuesModule.csproj", "{266E8078-3885-4671-BB2E-631331D6E04E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClient", "WebClient\WebClient.csproj", "{A94F9C10-4F07-4986-AEBB-6818DB569DCA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IssuesTest", "IssuesTest\IssuesTest.csproj", "{24D0FEF6-05D4-4571-8EB5-FEFD7C87FD9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IssuerApp", "IssuerApp\IssuerApp.csproj", "{4771D12A-C343-47EB-976E-B93A7B955200}"
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
@@ -58,5 +60,17 @@ Global
 		{24D0FEF6-05D4-4571-8EB5-FEFD7C87FD9C}.Release|x64.Build.0 = Release|x64
 		{24D0FEF6-05D4-4571-8EB5-FEFD7C87FD9C}.Release|x86.ActiveCfg = Release|x86
 		{24D0FEF6-05D4-4571-8EB5-FEFD7C87FD9C}.Release|x86.Build.0 = Release|x86
+		{4771D12A-C343-47EB-976E-B93A7B955200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4771D12A-C343-47EB-976E-B93A7B955200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4771D12A-C343-47EB-976E-B93A7B955200}.Debug|x64.ActiveCfg = Debug|x64
+		{4771D12A-C343-47EB-976E-B93A7B955200}.Debug|x64.Build.0 = Debug|x64
+		{4771D12A-C343-47EB-976E-B93A7B955200}.Debug|x86.ActiveCfg = Debug|x86
+		{4771D12A-C343-47EB-976E-B93A7B955200}.Debug|x86.Build.0 = Debug|x86
+		{4771D12A-C343-47EB-976E-B93A7B955200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4771D12A-C343-47EB-976E-B93A7B955200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4771D12A-C343-47EB-976E-B93A7B955200}.Release|x64.ActiveCfg = Release|x64
+		{4771D12A-C343-47EB-976E-B93A7B955200}.Release|x64.Build.0 = Release|x64
+		{4771D12A-C343-47EB-976E-B93A7B955200}.Release|x86.ActiveCfg = Release|x86
+		{4771D12A-C343-47EB-976E-B93A7B955200}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal

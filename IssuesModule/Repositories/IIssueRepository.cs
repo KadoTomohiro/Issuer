@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
-using Issues.Model;
+using IssuesModule.Model;
 
-namespace Issues.Repositories
+namespace IssuesModule.Repositories
 {
     public interface IIssueRepository
     {
-        IEnumerable<Issue> getAll();
-        Issue get(string Id);
+        IEnumerable<Issue> getList();
+        Issue get(int Id);
         void Add(Issue issue);
         void Update(Issue issue);
-        void Delete(string Id);
+        void Delete(int Id);
     }
 }
